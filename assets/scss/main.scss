@@ -1,0 +1,139 @@
+@import "variables";
+@import "fonts";
+
+
+
+
+body {
+	background-color: white;
+}
+
+blockquote {
+	font-family: osqald-medium;
+	font-size: 30px;
+}
+
+h1 {
+	font-family: osqald-medium;
+	font-size: 30px;
+}
+
+h2 {
+	font-family: osqald-medium;
+	font-size: 30px;
+}
+
+p {
+	font-family: fira-regular;
+	font-size: 20px;
+}
+
+article {
+	width: 100%;
+	margin-top: 5%;
+}
+
+.first-article {
+	margin-top: 0%;
+}
+
+.front-image {
+	background-image: url('../img/ld-front-img.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 80%;
+	height: 355px;
+	margin: 0 auto;
+	margin-top: 5%;
+	border-radius: 5px 5px 5px 5px;
+	-webkit-box-shadow: 0px 30px 17px -2px rgba(113,110,110,1);
+	-moz-box-shadow: 0px 30px 17px -2px rgba(113,110,110,1);
+	box-shadow: 0px 30px 17px -2px rgba(113,110,110,1);
+}
+
+.ld-logo {
+	height: 70px;
+	width: 70px;
+	background-image: url('../img/ld-logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.page-title {
+	font-family: osqald-medium;
+	font-size: 45px;
+	color: $lightgrey-color;
+	margin: 0px;
+	margin-left: 1%;
+}
+
+.green-line {
+	height: 5px;
+	width: 250px;
+	background-image: linear-gradient(to right, #93D8E5, #B4E69D);
+	border-radius: 5px 5px 5px 5px;
+}
+
+.footer-line {
+	margin-top: 8%;
+	height: 5px;
+	width: 100%;
+	background-color: black;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.page-sub-title {
+	font-family: osqald-medium;
+	font-size: 25px;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #f1c79a;
+	margin: 0px;
+}
+
+.divisor {
+	width: 25px;
+}
+
+.page-wrapper {
+	width: 100%;
+	max-width: 1280px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.page-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+}
+
+.page-content {
+	width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.empty-space {
+	height: 300px;
+	width: 1px;
+}
+
+
+
+
+
+@import "menu";
+@import "footer";
+@import "resize";

@@ -3,6 +3,7 @@
 <head>
 	<title>Legal Digital - Kapcsolat</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
 	<link rel="stylesheet" href="../assets/css/main.css" />
 </head>
 <body>
@@ -23,9 +24,22 @@
 			Steve Jobs
 		</blockquote>
 		
-		<article class="first-article">
+		<article>
 			<h1>Lépjen velünk kapcsolatba</h1>
-			<p>Ide jön egy form</p>			
+			<form name="contact" method="POST" action="../contact-success/" data-netlify="true">
+				<label for="name">Név</label>
+				<input type="text" id="name" name="name" placeholder="" required>
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" placeholder="" required>
+				<label for="phone">Telefonszám</label>
+				<input type="phone" id="phone" name="phone" placeholder="" required>
+				<label for="message">Tárgy</label>
+				<textarea type="message" id="message" name="message" placeholder=""></textarea>
+				<p class="hidden">
+				    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+				</p>
+				<input type="submit" value="Elküld">
+			</form>		
 		</article>
 
 	<div class="empty-space"></div>

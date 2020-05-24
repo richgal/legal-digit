@@ -130,10 +130,21 @@ article {
 	width: 1px;
 }
 
+.rolunk-drft {
+	float: right;
+	border-radius: 5px 5px 5px 5px;
+	-webkit-box-shadow: 0px 30px 17px -2px rgba(113,110,110,1);
+	-moz-box-shadow: 0px 30px 17px -2px rgba(113,110,110,1);
+	box-shadow: 0px 30px 17px -2px rgba(113,110,110,1);
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
 
 
 
 
 @import "menu";
+@import "form";
 @import "footer";
 @import "resize";

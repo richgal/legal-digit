@@ -1,0 +1,4 @@
+Sitemap: https://www.legaldigital.hu/sitemap.xml
+User-Agent: *
+Disallow: 
+

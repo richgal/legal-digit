@@ -1,2 +1,2 @@
 document.getElementById('footer').innerHTML = 
-'<div class="footer-content"><a href="../../">digitális jogvédelem</a><a href="../rolunk/">rólunk</a><a href="../kapcsolat/">kapcsolat</a></div><div class="footer-content-copy"><p>legaldigital.hu 2020</p></div>';
+'<div class="footer-content"><a href="../../">digitális jogvédelem</a><a href="../rolunk/">rólunk</a><a href="../legal_digital_adatkezelesi tajejoztato.pdf/">adatkezelési tájékoztató</a><a href="../kapcsolat/">kapcsolat</a></div><div class="footer-content-copy"><p>legaldigital.hu 2020</p></div>';

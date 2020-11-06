@@ -11,5 +11,6 @@ The site is availabel on [legaldigital.hu](https://legaldigital.hu)
 * CSS flexbox
 * SASS
 * JS
+* Responsive web design
 * Hosted on Netlify
 
